@@ -26,6 +26,9 @@ export class AppComponent {
   enum Color { Red = 0, Green = 2, Blue = 1 };
   let backgroundColor = Color.Red
 
+  let message = 'abc';
+  let endsWithC =  message.endsWith('c');
+
 } 
   
 }
