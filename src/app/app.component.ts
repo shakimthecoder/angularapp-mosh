@@ -26,6 +26,8 @@ export class AppComponent {
     }
   
     let point: new Point();
+    point.x = 1;
+    point.y = 6;
     point.draw();
   }
 }
