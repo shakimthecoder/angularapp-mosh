@@ -40,7 +40,7 @@ export class AppComponent {
   
   DoLog();
 
-  interface Point {
+  class Point {
     x: number,
     y: number
     draw = () => void
