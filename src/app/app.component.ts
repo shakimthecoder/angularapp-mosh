@@ -19,7 +19,12 @@ export class AppComponent {
   let e: number[] = [1, 2, 3];
   let f: any[] = [1, false, 'shakim'];
 
+  const ColorRed= 0;
+  const ColorBlue = 1;
+  const ColorGreen = 2;
 
+  enum Color { Red, Green, Blue};
+  let backgroundColor = Color.Red
 
 } 
   
