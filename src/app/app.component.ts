@@ -12,6 +12,8 @@ export class AppComponent {
   title = 'onlineapp';
 
   constructor () {
+  let a: number;
+  console.log(7);
 
 } 
   
