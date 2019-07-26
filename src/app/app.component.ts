@@ -13,7 +13,13 @@ export class AppComponent {
 
   constructor () {
   let a: number;
-  console.log(7);
+  let b: string;
+  let c: boolean;
+  let d: any;
+  let e: number[] = [1, 2, 3];
+  let f: any[] = [1, false, 'shakim'];
+
+
 
 } 
   
