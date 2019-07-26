@@ -12,15 +12,7 @@ export class AppComponent {
   title = 'onlineapp';
 
   constructor () {
-   function doSomething(){
-     for (let i=0; i < 5; i++){
-       console.log(i);
-       
-     }
-     
-   }
-   doSomething()
-   console.log('Hi');
+
 } 
   
 }
