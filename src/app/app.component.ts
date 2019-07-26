@@ -23,7 +23,7 @@ export class AppComponent {
   const ColorBlue = 1;
   const ColorGreen = 2;
 
-  enum Color { Red, Green, Blue};
+  enum Color { Red = 0, Green = 2, Blue = 1 };
   let backgroundColor = Color.Red
 
 } 
