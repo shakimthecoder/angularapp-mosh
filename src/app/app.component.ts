@@ -22,6 +22,12 @@ export class PointComponent {
   getX() {
     return this.x;
      }
+
+  setX(value) {
+   if (value < 0) {
+      throw new Error('Value 0');
+  }
+   this.x = value;
   }
 
    let point = new point(1, 2);
