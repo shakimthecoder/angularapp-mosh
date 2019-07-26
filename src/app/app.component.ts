@@ -41,23 +41,17 @@ export class AppComponent {
   DoLog();
 
   class Point {
-    x: number,
-    y: number
-    draw = () => void
-  }
+    x: number;
+    y: number;
 
-  let drawPoint = (point: Point) => {
-   //...
+    draw() {
+     console.log('X:' + this.x + ', Y:', + this.y);
+     }
+     getDistance(another: Point){
+       //...
+       }
+    }
   }
-  
-  let getDistance = (pointA: Point, pointB: Point) => {
-    //...
-  }
+    let point: Point;
+    point.draw();
 
-  drawPoint({
-    x: 1,
-    y: 2
-  })
-} 
-  
-}
