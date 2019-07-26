@@ -31,6 +31,14 @@ export class AppComponent {
   let endsWithC =  (<string>message).endsWith('c');
   let alternativeWay = (message as string).endsWith('c');
 
+  let log = function(message){
+    console.log(message);
+  }
+
+  let DoLog = () =>
+    console.log('message');
+  
+  DoLog();
 } 
   
 }
