@@ -10,18 +10,23 @@ import { Component } from '@angular/core';
 
 export class PointComponent {
   title = 'onlineapp';
+  private x: 0;
+  private y: 0;
 
-  constructor (x?: number, y?: number) {
+  constructor (private x?: number, private y?: number) {
     this.x = x;
     this.y =y;
 
   }
   
-
+  Point: number {
+    x: 0;
+    y:0; 
+  }
   draw() {
     console.log('X:' + this.x + ', Y:', + this.y);
      }
   }
- 
-   let point = new Point();
+   point = 0;
+   let point = new point();
    point.draw();
