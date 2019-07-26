@@ -12,12 +12,7 @@ export class AppComponent {
   title = 'onlineapp';
 
   constructor () {
-    function log(message){
-    console.log('Hello' + message);
-  }
-  var message = 'This works';
-  
-  log(message);
+   
 } 
   
 }
